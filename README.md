@@ -5,8 +5,7 @@ Aplicación de escritorio en **Python** para encontrar y evaluar el polinomio de
 ## Características
 * **Construcción del Polinomio**: Generación de la matriz de Vandermonde a partir de los puntos ingresados.
 * **Resolución del Sistema**: Resolución de $AX = B$ mediante **Eliminación Gaussiana con Pivoteo Parcial**.
-* **Evaluación Eficiente**: Evaluación del polinomio obtenido $P(x)$ mediante la **Regla de Horner**.
-* **Interfaz Gráfica Interactiva**: Diseñada en **Tkinter** con tabla dinámica, atajos de teclado para navegación y formato claro del polinomio resultante.
+* **Interfaz Grá de Horner**.fica Interactiva**: Diseñada en **Tkinter** con tabla dinámica, atajos de teclado para navegación y formato claro del polinomio resultante.
 * **Validaciones**: Detección de puntos duplicados en $X$ y sistemas singulares.
 
 ## Estructura del Proyecto
