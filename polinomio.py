@@ -4,7 +4,7 @@ def limpiar_coeficientes(coeficientes, tol=1e-9):
     return [0.0 if abs(c) < tol else c for c in coeficientes]
 
 
-def evaluar_polinomio_normal(coeficientes, x):
+def evaluar_polinomio(coeficientes, x):
     resultado = 0.0
     for i, coef in enumerate(coeficientes):
         resultado += coef * (x ** i)
